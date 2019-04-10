@@ -1,0 +1,59 @@
+*{
+	margin:0;padding:0;
+}
+body{
+	margin: 0 auto;
+	font-size:12px;
+	font-family:微软雅黑；
+	background-color:#fff;
+}
+a,a:visited{
+	color:#333;
+	text-decoration:none;
+}
+a:hover{
+	color:#CC0D24;
+	text-decoration:none;
+}
+.container{
+	width:1211px;
+	margin:0 auto;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+li{
+	list-style-type:none;
+}
+input,button{
+	outline:none;
+}
+i{
+	background-image:url(../images/iconlist_2.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+.cat3 i{
+	width:20px;
+	height:17px;
+	background-position: -121px -30px;
+}
+.cat4 i{
+	width:20px;
+	height:17px;
+	background-position: -121px -90px;
+}
+.cat5 i{
+	width :6px;
+	height:9px;
+	background-position: -110px -45px;
+}
